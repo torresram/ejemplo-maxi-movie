@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|c:\\users\\ramir\\documents\\programacion\\maxprograma\\curso c#\\nivel4\\unidad6\\maxi-movie-mvc-ejemplo\\maxi-movie-mvc\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|solutionrelative:maxi-movie-mvc\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|c:\\users\\ramir\\documents\\programacion\\maxprograma\\curso c#\\nivel4\\unidad6\\maxi-movie-mvc-ejemplo\\maxi-movie-mvc\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|solutionrelative:maxi-movie-mvc\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|c:\\users\\ramir\\documents\\programacion\\maxprograma\\curso c#\\nivel4\\unidad6\\maxi-movie-mvc-ejemplo\\maxi-movie-mvc\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|solutionrelative:maxi-movie-mvc\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|c:\\users\\ramir\\documents\\programacion\\maxprograma\\curso c#\\nivel4\\unidad6\\maxi-movie-mvc-ejemplo\\maxi-movie-mvc\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|solutionrelative:maxi-movie-mvc\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|c:\\users\\ramir\\documents\\programacion\\maxprograma\\curso c#\\nivel4\\unidad6\\maxi-movie-mvc-ejemplo\\maxi-movie-mvc\\models\\plataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|solutionrelative:maxi-movie-mvc\\models\\plataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|c:\\users\\ramir\\documents\\programacion\\maxprograma\\curso c#\\nivel4\\unidad6\\maxi-movie-mvc-ejemplo\\maxi-movie-mvc\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|solutionrelative:maxi-movie-mvc\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|c:\\users\\ramir\\documents\\programacion\\maxprograma\\curso c#\\nivel4\\unidad6\\maxi-movie-mvc-ejemplo\\maxi-movie-mvc\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|solutionrelative:maxi-movie-mvc\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|c:\\users\\ramir\\documents\\programacion\\maxprograma\\curso c#\\nivel4\\unidad6\\maxi-movie-mvc-ejemplo\\maxi-movie-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|solutionrelative:maxi-movie-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|c:\\users\\ramir\\documents\\programacion\\maxprograma\\curso c#\\nivel4\\unidad6\\maxi-movie-mvc-ejemplo\\maxi-movie-mvc\\data\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45703F64-FF25-4284-B572-6A919EC0BCE6}|maxi-movie-mvc\\maxi-movie-mvc.csproj|solutionrelative:maxi-movie-mvc\\data\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,12 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,53 +48,95 @@
               "RelativeDocumentMoniker": "maxi-movie-mvc\\Models\\Pelicula.cs",
               "ToolTip": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Pelicula.cs",
               "RelativeToolTip": "maxi-movie-mvc\\Models\\Pelicula.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBoAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T23:32:17.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "maxi-movie-mvc\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Usuario.cs",
-              "RelativeToolTip": "maxi-movie-mvc\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T23:30:48.428Z",
+              "WhenOpened": "2026-04-30T00:12:58.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "maxi-movie-mvc\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Review.cs",
+              "RelativeToolTip": "maxi-movie-mvc\\Models\\Review.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA8wBMAAAC/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T00:09:17.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Plataforma.cs",
               "DocumentMoniker": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Plataforma.cs",
               "RelativeDocumentMoniker": "maxi-movie-mvc\\Models\\Plataforma.cs",
               "ToolTip": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Plataforma.cs",
               "RelativeToolTip": "maxi-movie-mvc\\Models\\Plataforma.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T23:27:25.64Z",
+              "WhenOpened": "2026-04-30T00:08:23.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Genero.cs",
               "DocumentMoniker": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Genero.cs",
               "RelativeDocumentMoniker": "maxi-movie-mvc\\Models\\Genero.cs",
               "ToolTip": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Genero.cs",
               "RelativeToolTip": "maxi-movie-mvc\\Models\\Genero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T23:27:01.628Z",
+              "WhenOpened": "2026-04-30T00:07:47.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Program.cs",
+              "RelativeDocumentMoniker": "maxi-movie-mvc\\Program.cs",
+              "ToolTip": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Program.cs",
+              "RelativeToolTip": "maxi-movie-mvc\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T23:56:24.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "maxi-movie-mvc\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Models\\Usuario.cs",
+              "RelativeToolTip": "maxi-movie-mvc\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T23:52:21.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Data\\MovieDbContext.cs",
+              "RelativeDocumentMoniker": "maxi-movie-mvc\\Data\\MovieDbContext.cs",
+              "ToolTip": "C:\\Users\\ramir\\Documents\\programacion\\MaxPrograma\\Curso C#\\Nivel4\\Unidad6\\maxi-movie-mvc-Ejemplo\\maxi-movie-mvc\\Data\\MovieDbContext.cs",
+              "RelativeToolTip": "maxi-movie-mvc\\Data\\MovieDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T23:52:13.481Z"
             }
           ]
         }
