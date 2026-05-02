@@ -21,7 +21,6 @@ C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-m
 C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\obj\Debug\net9.0\scopedcss\bundle\maxi-movie-mvc.styles.css
 C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\obj\Debug\net9.0\scopedcss\projectbundle\maxi-movie-mvc.bundle.scp.css
-C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\obj\Debug\net9.0\compressed\jwr9w3vcl4-b9sayid5wm.gz
 C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\obj\Debug\net9.0\compressed\fn0k6bn0br-61n19gt1b8.gz
 C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\obj\Debug\net9.0\compressed\nmuk2sanho-xtxxf3hu2r.gz
 C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\obj\Debug\net9.0\compressed\7qr4k8opdt-bqjiyaj88i.gz
@@ -347,3 +346,4 @@ C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-m
 C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\ramir\Documents\programacion\MaxPrograma\Curso C#\Nivel4\Unidad6\maxi-movie-mvc-Ejemplo\maxi-movie-mvc\obj\Debug\net9.0\compressed\jwr9w3vcl4-kvouzj2pnn.gz
