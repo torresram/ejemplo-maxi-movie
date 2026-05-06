@@ -2,6 +2,7 @@ using System.Diagnostics;
 using maxi_movie_mvc.Data;
 using maxi_movie_mvc.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace maxi_movie_mvc.Controllers
@@ -18,22 +19,34 @@ namespace maxi_movie_mvc.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(int pagina = 1)
+        public async Task<IActionResult> Index(int pagina = 1, string txtBusqueda = "", int generoId = 0)
         {
-            if(pagina < 1)
+            if (pagina < 1)
             {
                 pagina = 1;
             }
 
-            var totalPeliculas = await _context.Peliculas.CountAsync();
+            var consulta = _context.Peliculas.AsQueryable(); //esto hace que la consulta se ejecute en la base de datos y no en memoria
+
+            if (!string.IsNullOrEmpty(txtBusqueda))
+            {
+                consulta = consulta.Where(p => p.Titulo.Contains(txtBusqueda));
+            }
+
+            if (generoId > 0)
+            {
+                consulta = consulta.Where(p => p.GeneroId == generoId);
+            }
+
+            var totalPeliculas = await consulta.CountAsync();
             var totalPaginas = (int)Math.Ceiling(totalPeliculas / (double)PageSize);
 
-            if(pagina > totalPaginas && totalPaginas > 0)
+            if (pagina > totalPaginas && totalPaginas > 0)
             {
                 pagina = totalPaginas;
             }
 
-            var peliculas = await _context.Peliculas
+            var peliculas = await consulta
                 .Skip((pagina - 1) * PageSize)
                 .Take(PageSize)
                 .ToListAsync();
@@ -41,8 +54,27 @@ namespace maxi_movie_mvc.Controllers
             ViewBag.PaginaActual = pagina;
             ViewBag.TotalPaginas = totalPaginas;
             ViewBag.TotalPeliculas = totalPeliculas;
+            ViewBag.TxtBusqueda = txtBusqueda;
+
+            var generos = await _context.Generos.OrderBy(g => g.Descripcion).ToListAsync();
+            generos.Insert(0, new Genero { Id = 0, Descripcion = "Género" }); //agregamos una opción para mostrar todas las películas sin filtrar por género
+            ViewBag.GeneroId = new SelectList( //luego, en la vista, usaremos esta lista para mostrar un dropdown con los géneros disponibles
+                    generos,
+                    "Id",
+                    "Descripcion",
+                    generoId
+        );
 
             return View(peliculas);
+        }
+
+        public async Task<IActionResult> Details(int Id)
+        {
+            var pelicula = await _context.Peliculas
+                .Include(p => p.Genero)
+                .FirstOrDefaultAsync(p => p.Id == Id);
+
+            return View();
         }
 
         public IActionResult Privacy()
