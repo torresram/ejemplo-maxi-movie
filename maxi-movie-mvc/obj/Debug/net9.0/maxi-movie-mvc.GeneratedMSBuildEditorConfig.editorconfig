@@ -100,6 +100,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGFmb3JtYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Review/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Review/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Review/_CreateReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XF9DcmVhdGVSZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,6 +122,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Usuario/MiPerfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xNaVBlcmZpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Usuario/Registro.cshtml]

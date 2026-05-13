@@ -1,5 +1,7 @@
 using maxi_movie_mvc.Data;
 using maxi_movie_mvc.Models;
+using maxi_movie_mvc.Service;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -63,6 +65,9 @@ builder.Services.ConfigureApplicationCookie(o =>
     o.LoginPath = "/Usuario/Login";
     o.AccessDeniedPath = "/Usuario/AccessDenied";
 });
+
+builder.Services.AddScoped<ImagenStorage>();//Registrar el servicio de almacenamiento de imágenes para inyección de dependencias
+builder.Services.Configure<FormOptions>(o => { o.MultipartBoundaryLengthLimit = 2 * 1024 * 1024; }); // Limitar el tamaño máximo de los archivos subidos a 2 MB
 
 var app = builder.Build();
 

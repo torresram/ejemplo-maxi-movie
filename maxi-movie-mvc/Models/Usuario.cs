@@ -50,4 +50,15 @@ namespace maxi_movie_mvc.Models
         public string Clave { get; set; }
         public bool Recordarme { get; set; }
     }
+
+    public class MiPerfilViewModel
+    {
+        [Required(ErrorMessage = "El campo nombre es obligatorio")]
+        public string Nombre { get; set; }
+        [Required(ErrorMessage = "El campo apellido es obligatorio")]
+        public string Apellido { get; set; }
+        public string? Email { get; set; }
+        public IFormFile? ImagenPerfil { get; set; }
+        public string? ImagenUrlPerfil { get; set; }
+    }
 }
