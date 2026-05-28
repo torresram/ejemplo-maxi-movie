@@ -11,7 +11,7 @@ namespace maxi_movie_mvc.Controllers
         private readonly UserManager<Usuario> _userManager;
         private readonly SignInManager<Usuario> _signInManager;
         private readonly ImagenStorage _imagenStorage;
-        //private readonly IEmailService _emailService;
+        private readonly IEmailService _emailService;
         public UsuarioController(UserManager<Usuario> userManager, SignInManager<Usuario> signInManager, ImagenStorage imagenStorage)
         {
             _userManager = userManager;
@@ -67,6 +67,7 @@ namespace maxi_movie_mvc.Controllers
                 if (resultado.Succeeded)
                 {
                     await _signInManager.SignInAsync(nuevoUsuario, isPersistent: false);//isPersistent: false significa que la sesión no se mantendrá después de cerrar el navegador
+                    await _emailService.SendAsync(nuevoUsuario.Email, "Bienvenido a Maxi Movie!", $"Hola {nuevoUsuario.Nombre}, gracias por registrarte en Maxi Movie. ¡Disfruta explorando nuestras películas!");//envía un correo de bienvenida al nuevo usuario
                     return RedirectToAction("Index", "Home");
                 }
                 else
@@ -133,9 +134,9 @@ namespace maxi_movie_mvc.Controllers
 
                 usuarioActual.Nombre = usuarioVM.Nombre;
                 usuarioActual.Apellido = usuarioVM.Apellido;
-                
-               var resultado = await _userManager.UpdateAsync(usuarioActual);
-                
+
+                var resultado = await _userManager.UpdateAsync(usuarioActual);
+
                 if (resultado.Succeeded)
                 {
                     ViewBag.Mensaje = "Perfil actualizado correctamente.";

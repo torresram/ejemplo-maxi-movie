@@ -60,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Home/_ModalLlm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTW9kYWxMbG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Pelicula/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVsaWN1bGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -118,6 +122,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Usuario/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ramir/Documents/programacion/MaxPrograma/Curso C\#/Nivel4/Unidad6/maxi-movie-mvc-Ejemplo/maxi-movie-mvc/Views/Usuario/Login.cshtml]

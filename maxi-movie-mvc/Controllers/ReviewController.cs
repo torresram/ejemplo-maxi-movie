@@ -74,7 +74,7 @@ namespace maxi_movie_mvc.Controllers
                     };
                     _context.Reviews.Add(nuevaReview);
                     _context.SaveChanges();
-                    return RedirectToAction("Details", "Home", new {id = review.PeliculaId});
+                    return RedirectToAction("Details", "Home", new { id = review.PeliculaId });
                 }
 
                 return View(review);
@@ -97,7 +97,10 @@ namespace maxi_movie_mvc.Controllers
 
             var user = await _userManager.GetUserAsync(User);
             if (review.UsuarioId != user.Id && !_userManager.IsInRoleAsync(user, "Admin").Result)
+            {
                 return Forbid();
+
+            }
 
             var reviewViewModel = new ReviewCreateViewModel
             {
@@ -123,11 +126,15 @@ namespace maxi_movie_mvc.Controllers
                 {
                     var reviewExistente = _context.Reviews.FirstOrDefault(r => r.Id == review.Id);
                     if (reviewExistente == null)
+                    {
                         return NotFound();
+                    }
 
                     var user = await _userManager.GetUserAsync(User);
-                    if (review.UsuarioId != user.Id && !_userManager.IsInRoleAsync(user, "Admin").Result)
+                    if (review.UsuarioId != user.Id && !_userManager.IsInRoleAsync(user, "Admin").Result)//Si el usuario no es el autor de la review ni un admin, se le niega el acceso.
+                    {
                         return Forbid();
+                    }
 
                     reviewExistente.Rating = review.Rating;
                     reviewExistente.Comentario = review.Comentario;

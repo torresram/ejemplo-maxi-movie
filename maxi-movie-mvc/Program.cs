@@ -69,6 +69,13 @@ builder.Services.ConfigureApplicationCookie(o =>
 builder.Services.AddScoped<ImagenStorage>();//Registrar el servicio de almacenamiento de imágenes para inyección de dependencias
 builder.Services.Configure<FormOptions>(o => { o.MultipartBoundaryLengthLimit = 2 * 1024 * 1024; }); // Limitar el tamaño máximo de los archivos subidos a 2 MB
 
+//servicio de email
+builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));// Configura las opciones de SMTP a partir de la sección "SmtpSettings" en appsettings.json
+builder.Services.AddScoped<IEmailService, SmtpEmailService>();// Registrar el servicio de correo electrónico para inyección de dependencias
+
+//servicio de LLM
+builder.Services.AddScoped<LlmService>();// Registrar el servicio de LLM para inyección de dependencias
+
 var app = builder.Build();
 
 //Realizar carga inical del DbSeeder con using Scope
@@ -76,7 +83,9 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     var context = services.GetRequiredService<MovieDbContext>();
-    DbSeeder.Seed(context);
+    var userManager = services.GetRequiredService<UserManager<Usuario>>();
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    await DbSeeder.Seed(context, userManager, roleManager);
 }
 
 // Configure the HTTP request pipeline.

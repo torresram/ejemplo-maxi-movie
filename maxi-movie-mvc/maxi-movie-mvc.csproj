@@ -5,9 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>maxi_movie_mvc</RootNamespace>
+    <!--<SixLaborsLicenseKey>ctm_01k4a0m3dxnya9epg35rqqxs29;Kind=Community;ExpiryDateUtc=2026-12-03T09:33:00.1566670Z;Key=M+2oIq6h6sAag2H476SNAgeI8LUHBYIhPnTHNzADw2WBuJ9+KYC8ouKV6kgbg78CuxMC2FbgnNUcHvvIT/s8Qg==</SixLaborsLicenseKey>-->
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.16.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.15">
@@ -20,6 +22,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.12" />
+    <PackageReference Include="OpenAI" Version="2.10.0" />
     <PackageReference Include="SixLabors.ImageSharp" Version="4.0.0" />
   </ItemGroup>
 
